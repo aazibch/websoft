@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* Primary Color: #007EBA */
+/*
+Accent Colors: 
+#0AC79C
+#0ac77b (darker variant)
+*/
+
+body {
+	color: #575757;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Global Bootstrap overrides */
+.jumbotron {
+	font-size: 2rem;
+	background: none;
+	margin-bottom: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	font-weight: bold;
+	color: rgba(255,255,255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	font-weight: bold;
+	color: rgba(255,255,255, 0.6);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link:hover {
+	color: rgba(255,255,255, 1);	
+}
+
+.navbar-light .navbar-brand {
+	color: #007EBA;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: #007EBA;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 126, 186, 0.75);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(0, 126, 186, 0.6);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+	color: rgba(0, 126, 186, 0.75);
+	font-weight: bold;
+}
+
+/* End */
+
+.primary-text {
+	color: #007EBA;
+}
+
+.secondary-text {
+	color: #0ac77b;
+}
+
+.secondary-text-lighter {
+	color: #0AC79C;
+}
+
+.primary-button {
+	background: #007EBA;
+	color: rgb(255, 255, 255);
+}
+
+.primary-button:hover {
+	background: rgb(1, 112, 163);
+	color: rgb(255, 255, 255);	
+}
+
+.secondary-button {
+	background: #0ac77b;
+	color: rgb(255, 255, 255);
+}
+
+.secondary-button:hover {
+	background: #08b46f;
+	color: rgb(255, 255, 255);
+}
+
+.page-heading-container {
+	background: #007EBA;
+}
+
+.nav-jumbotron-container {
+	background: url("../images/banner-background.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.jumbotron-content-container {
+	max-width: 51rem;
+	margin: 5.5rem auto;
+}
+
+.service-highlights-card {
+	max-width: 30rem;
+	margin: 0 auto;
+}
+
+.service-hightlights-icon {
+	font-size: 4.5rem;
+	display: inline-block;
+	margin-bottom: 2rem;
+}
+
+.service-highlights-card .card-text {
+	color: red;
+}
+
+.recent-work-section {
+	background: #f5f5f5;
+	padding-top: 5rem;
+	padding-bottom: 6rem;
+}
+
+.recent-work-section h2 {
+	margin-bottom: 3rem;
+}
+
+.recent-work-section .figure {
+	background: #fff;
+}
+
+.order-section {
+	padding: 7rem 0;
+}
+
+.about-inner-container {
+	max-width: 45rem;
+	margin: 0 auto;
+}
+
+.about-inner-container p {
+	margin-bottom: 2rem;
+}
+
+.about-inner-container h3.h5 {
+	margin-bottom: 1.5rem;
+}
+
+.page-footer {
+	background: #4a4a4a;
+}
+
+.page-footer a {
+	color: #f8f9fa;
+	text-decoration: underline;
+}
+
+.page-footer a:hover {
+	color: #e0dfdf;
+	text-decoration: underline;
+}
+
+.footer-contact-area {
+	background: #0ac77b;
+}
+
+.footer-links .nav-link {
+	padding: 0;
+	margin: 0.2rem 0;
+	display: inline-block;
+}
+
+.footer-copyright {
+	background: #373737;
+}
+
+@media (max-width: 991.98px) {	
+	.jumbotron-content-container {
+		margin: 3rem auto;
+	}
+
+	.recent-work-section {
+		padding-top: 4rem;
+		padding-bottom: 5rem;
+	}
+
+	.order-section {
+		padding: 5rem 0;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.jumbotron {
+		font-size: 1.5rem;	
+	}
+
+	.jumbotron-content-container p.h1 {
+		font-size: 2.1rem;
+	}
+
+	.jumbotron-content-container {
+		margin: 2rem auto;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.footer-contact-area {
+		background: #4a4a4a;
+	}
+}
